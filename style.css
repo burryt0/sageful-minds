@@ -1,0 +1,133 @@
+body {
+    font-family: Helvetica Neue,Helvetica Neue;
+    background-color: #c8f9e3ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #3c887f;
+    color: white;
+    padding: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+/* Google Fonts */
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Card style for main content */
+.card {
+    background: #ffffffcc;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 32px 24px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+/* Header improvements */
+header {
+    background: linear-gradient(90deg, #00796b 60%, #26a69a 100%);
+    color: white;
+    padding: 32px 0 18px 0;
+    box-shadow: 0 2px 8px rgba(34, 85, 80, 0.04);
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Navigation hover effect */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #65d197f9;
+    text-decoration: underline;
+}
+
+/* Responsive iframe */
+iframe {
+    width: 100%;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(31, 86, 64, 0.06);
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+    .card {
+        max-width: 98vw;
+        padding: 16px 4vw;
+    }
+    iframe {
+        height: 600px;
+    }
+}
+.card h2 {
+    color: #66b79d; /* teal */
+}
+
+.card p {
+    color: #43824f; /* lighter teal */
+}
+
+.card h3 {
+    color: #65b082; /* gold */
+}
+.card h2 {
+    color: #66b79d; /* teal */
+    font-size: 2.5rem;    /* makes it bigger */
+    font-weight: 800;     /* makes it extra bold */
+    margin-bottom: 12px;  /* optional: adds space below */
+}
+#events-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    z-index: 1000;
+    box-shadow: 0 -2px 8px rgba(11, 52, 30, 0.07);
+}
+#events-banner a {
+    color: #82d595;
+    text-decoration: underline;
+    font-weight: 600;
